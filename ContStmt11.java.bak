@@ -1,0 +1,25 @@
+import java.util.*;
+class ContStmt11
+
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a");
+		int n=sc.nextInt();
+        
+		
+		if(n >= 30 && n<=50) 
+		{
+		System.out.println(n+ " is in between 30 and 50 ");
+		}
+		else
+		{
+			System.out.println(n + " is not in between 30 and 50  ");
+		}
+
+		String res= (n>=30 && n<=50) ? n + " is between 30 and 50" : n+ " is not between 30 and 50";
+		System.out.println(res);
+	   
+	}
+}
